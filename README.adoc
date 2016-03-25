@@ -1,0 +1,9 @@
+= readme
+
+----
+docker run --rm -v /path/to/wiki:/wiki -p 4567:4567 uochan/gollum
+----
+
+----
+docker run --rm -v /path/to/wiki:/wiki -v /path/to/config:/config -p 4567:4567 uochan/gollum --config /config/config.rb
+----
